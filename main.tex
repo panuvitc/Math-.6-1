@@ -544,7 +544,23 @@ Scale = 1.5
 	}
 }
 
-
+\definecolor{cambridgeblue}{HTML}{A3C1AD} % กำหนดสีด้วยรหัส HEX
+\tcbuselibrary{breakable,skins}
+\definecolor{planblue}{rgb}{0.86,0.93,0.96}
+\newtcolorbox{planbox}{
+	breakable,
+	enhanced,
+	colback=planblue,
+	colframe=cyan!50!black,
+	boxrule=0.7pt,
+	arc=2mm,
+	left=10pt,
+	right=10pt,
+	top=8pt,
+	bottom=8pt,
+	before skip=10pt,
+	after skip=10pt
+}
 \newcommand{\remark}{\noindent\textbf{\textcolor{red}{หมายเหตุ}}\,\,}
 % ==========================================
 % เริ่มต้นเนื้อหาเอกสารหลัก
